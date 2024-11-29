@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Padre*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: start;
+    align-content: flex-start; */
+    flex-wrap: wrap;
+    gap: 30px;
+
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin: 40px auto;
+}
+
+/*Hijo*/
+.ball{
+    width: 40%;
+    height: 100px;
+    background-color: orange;
+    border-radius: 10%;
+    border: 3px solid black;
+    color: white;
+}
+
+.tres   {
+    background-color: #232323;
+    align-self: flex-start;
+}
