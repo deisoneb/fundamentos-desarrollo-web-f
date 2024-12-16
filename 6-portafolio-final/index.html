@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="#" class="logo">
+        <i class="bx bx-code-alt"></i>
+        <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+        <div class="logo-name"><span>Port</span>folio</div>
+      </a>
+      <ul class="side-menu">
+        <li>
+          <a href="#"><i class="bx bxs-dashboard"></i>Dashboard</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-store-alt"></i>Shop</a>
+        </li>
+        <li class="active">
+          <a href="#"><i class="bx bx-analyse"></i>Analytics</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-message-square-dots"></i>Tickets</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-group"></i>Users</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-cog"></i>Settings</a>
+        </li>
+      </ul>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="logout">
+            <i class="bx bx-log-out-circle"></i>
+            Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          
+          <h1>Portfolio</h1>
+
+          <ul class="icon-list">
+            <li><span class="material-icons">search</span></li>
+            <li><span class="material-icons">star</span></li>
+            <li><span class="material-icons">bolt</span></li>
+            <li><span class="material-icons">settings</span></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="welcome">
+        <div class="container">
+            <div class="welcome-content">
+              <div class="col-1">
+                <h3>
+                  Descubre herramientas tecnológicas y
+                  <span>soluciones innovadoras</span>.
+                </h3>
+                <p>
+                  Explora ideas modernas para crear proyectos eficientes, funcionales y
+                  visualmente atractivos, utilizando las últimas tecnologías y prácticas
+                  en desarrollo web.
+                </p>
+                <a href="#">Explorar herramientas</a>
+              </div>
+              <div class="col-2">
+                <img
+                  class="img-laptop"
+                  src="https://i.pinimg.com/736x/01/05/92/010592097aa30f855e6d863f09781783.jpg"
+                  alt="Laptop moderna"
+                />
+                <img
+                  class="img-code"
+                  src="https://i.pinimg.com/736x/9a/e8/2b/9ae82be7651d7f666e076f1159917948.jpg"
+                  alt="Código en pantalla"
+                />
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="productos">
+      <div class="container">
+        <div class="productos-content">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1644659306528-259903deccde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="MacBook Pro M2 Laptop">
+                <div class="card-hover">
+                    <div class="card-hover-header">
+                        <a href="#">MacBook Pro M2</a>
+                        <button class="btn-guardar">$1,999</button>
+                    </div>
+                    <div class="card-hover-footer">
+                        <i>💻</i>
+                        <i>⭐</i>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb" alt="iPhone 14 Pro Max">
+                <div class="card-hover">
+                    <div class="card-hover-header">
+                        <a href="#">iPhone 14 Pro Max</a>
+                        <button class="btn-guardar">$1,099</button>
+                    </div>
+                    <div class="card-hover-footer">
+                        <i>📱</i>
+                        <i>🔥</i>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AirPods Pro">
+                <div class="card-hover">
+                    <div class="card-hover-header">
+                        <a href="#">AirPods Pro (2nd Gen)</a>
+                        <button class="btn-guardar">$249</button>
+                    </div>
+                    <div class="card-hover-footer">
+                        <i>🎧</i>
+                        <i>👍</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="skills-content">
+          <div>
+            <h1>HTML</h1>
+            <p>4 años de experiencia</p>
+          </div>
+          <div>
+            <h1>CSS</h1>
+            <p>4 años de experiencia</p>
+          </div>
+          <div>
+            <h1>JAVASCRIPT</h1>
+            <p>4 años de experiencia</p>
+          </div>
+          <div>
+            <h1>ACCESSIBILITY</h1>
+            <p>4 años de experiencia</p>
+          </div>
+          <div>
+            <h1>REACT</h1>
+            <p>4 años de experiencia</p>
+          </div>
+          <div>
+            <h1>SASS</h1>
+            <p>4 años de experiencia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="sidebar.js"></script>
+
+  </body>
+</html>

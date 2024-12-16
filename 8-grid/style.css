@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Padre */
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 200px auto; */
+    gap: 10px;
+
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin: 40px auto;
+    padding: 10px;
+}
+/* Hijo */
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100px;
+    height: 100px; */
+    background-color: orange;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: white;
+}
+
+.tomato{
+    background-color: tomato;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.celeste{
+    background-color: aquamarine;
+    color: black;
+    grid-column: 4/5;
+    grid-column: 2/4;
+}
+
